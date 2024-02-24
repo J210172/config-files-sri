@@ -1,0 +1,20 @@
+;
+;  Zone File for network "intra.asir.midom." 
+;	- Internal ONLY
+;
+$ORIGIN intra.asir.midom.
+$TTL 2h
+
+@		SOA     ns1 admin (202 1h 10m 1w 1h)
+		NS      ns1.asir.midom.
+		NS      ns2.asir.midom.
+
+ipfire	A       10.0.0.1
+web1	A   	10.0.0.2
+web2	A       10.0.0.3
+www		A       10.0.0.4
+mail	A       10.0.0.4
+sexo	A       10.0.0.69
+imap	CNAME   mail
+smtp	CNAME   mail
+

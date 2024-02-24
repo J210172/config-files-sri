@@ -1,0 +1,14 @@
+;
+;	Reverse File for network "10.0.0.0/24"
+;	 - Internal ONLY
+;
+$ORIGIN 0.0.10.in-addr.arpa.
+$TTL 1D
+@		IN      SOA		ns1 admin	(13 6H 1H 1W 1D)
+		IN      NS      ns1.asir.midom.
+		IN      NS      ns2.asir.midom.
+
+1       IN      PTR		ipfire.asir.midom.
+2       IN      PTR		ns1.asir.midom.
+3		IN		PTR		ns1.asir.midom.
+
