@@ -1,0 +1,5 @@
+# Samba configuration
+search asir.net
+# If using IPv6, uncomment the following line
+#nameserver ::1
+nameserver 127.0.0.1
